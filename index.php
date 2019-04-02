@@ -5,13 +5,13 @@
 <div id="wrapper">
     <div class="w50-l">
         <h2>
-            PUTTING THE CUSTOMER FIRST
+            QUALITY CRAFTSMANSHIP 
         </h2>
         <p class="mt15">
-            Lorem ipsum dolor sit amet, consectettur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            <span style="color: #cd4239;">MCH Telecom Inc.</span> is a leading communications contractor providing low voltage structured cabling. Our specialists have been providing data and telecommunication solutions to Southeast Michigan for more than thirty years. As a member of the International Brotherhood of Electrical Workers, our clients are guaranteed, not only the highest skilled workforce, but a staff that is trained and required to meet OSHA safety regulations. 
         </p>
         <p class="mt15">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            The MCH Telecom Inc. craftsmanship shines throughout all of our projects. From designing and planning, to engineering and consulting, and final installation, we’ll be with you every step of the way. Whether you need a voice or data network solution, a brand new setup, relocation or rebuild, our staff will provide you the quality and customer service you deserve.  
         </p>
     </div>
     <div class="w50-r">
@@ -161,12 +161,30 @@ Past Projects Section
         <h3>
         PAST PROJECTS
         </h3>
-        <p class="mt15 boldText">Carhartt Headquarters - Dearborn, MI</p>
+        <h4 class="mt15">Carhartt Headquarters - Dearborn, MI</h4>
+        <div class="w40-l">
+            <ul class="mt15 contactUl">
+                <li><span class="boldText">Square Feet:</span></li>
+            </ul>
+        </div>
+        <div class="w60-r">
+            <ul class="mt15 contactUl">
+                <li>45,000</li>
+            </ul>
+        </div>
+        <div class="w40-l">
+            <ul class="contactUl mt5">
+                <li><span class="boldText">Work Completed:</span></li>
+            </ul>
+        </div>
+        <div class="w60-r">
+            <ul class="contactUl mt5">
+                <li> Voice/Data Cabling</li>
+            </ul>
+        </div>
+        <br class="clear-fix">
         <p class="mt15">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
-        </p>
-        <p class="mt15">
-            <a href="about">See more projects &#9658;</a>
+            <a href="about#ds">See more projects &#9658;</a>
         </p>
     </div>
     <div class="w50-r">
