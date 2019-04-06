@@ -31,7 +31,7 @@
         </h4>
         <div class="w40-l">
             <ul class="mt15 contactUl">
-                <li><span class="boldText">Square Feet:</span></li>
+                <li><span class="boldText">Approx. Square Footage:</span></li>
             </ul>
         </div>
         <div class="w60-r">
@@ -39,6 +39,7 @@
                 <li>45,000</li>
             </ul>
         </div>
+        <br class="clear-fix">
         <div class="w40-l">
             <ul class="contactUl mt5">
                 <li><span class="boldText">Work Completed:</span></li>
@@ -65,7 +66,7 @@
         </h4>
         <div class="w40-l">
             <ul class="mt15 contactUl">
-                <li><span class="boldText">Square Feet:</span></li>
+                <li><span class="boldText">Approx. Square Footage:</span></li>
             </ul>
         </div>
         <div class="w60-r">
@@ -73,6 +74,7 @@
                 <li>26,000</li>
             </ul>
         </div>
+        <br class="clear-fix">
         <div class="w40-l">
             <ul class="contactUl mt5">
                 <li><span class="boldText">Description:</span></li>
@@ -83,6 +85,7 @@
                 <li>3 story office building with parking on the 1st floor</li>
             </ul>
         </div>
+        <br class="clear-fix">
         <div class="w40-l">
             <ul class="contactUl mt5">
                 <li><span class="boldText">Work Completed:</span></li>
@@ -109,7 +112,7 @@
         </h4>
         <div class="w40-l">
             <ul class="mt15 contactUl">
-                <li><span class="boldText">Square Feet:</span></li>
+                <li><span class="boldText">Approx. Square Footage:</span></li>
             </ul>
         </div>
         <div class="w60-r">
@@ -117,6 +120,7 @@
                 <li>185,000</li>
             </ul>
         </div>
+        <br class="clear-fix">
         <div class="w40-l">
             <ul class="contactUl mt5">
                 <li><span class="boldText">Description:</span></li>
@@ -127,6 +131,7 @@
                 <li>Multistory office building</li>
             </ul>
         </div>
+        <br class="clear-fix">
         <div class="w40-l">
             <ul class="contactUl mt5">
                 <li><span class="boldText">Work Completed:</span></li>
@@ -153,7 +158,7 @@
         </h4>
         <div class="w40-l">
             <ul class="mt15 contactUl">
-                <li><span class="boldText">Square Feet:</span></li>
+                <li><span class="boldText">Approx. Square Footage:</span></li>
             </ul>
         </div>
         <div class="w60-r">
@@ -161,6 +166,7 @@
                 <li>120,000</li>
             </ul>
         </div>
+        <br class="clear-fix">
         <div class="w40-l">
             <ul class="contactUl mt5">
                 <li><span class="boldText">Description:</span></li>
@@ -171,6 +177,7 @@
                 <li>Multistory Hospital</li>
             </ul>
         </div>
+        <br class="clear-fix">
         <div class="w40-l">
             <ul class="contactUl mt5">
                 <li><span class="boldText">Work Completed:</span></li>

@@ -8,10 +8,10 @@
             QUALITY CRAFTSMANSHIP 
         </h2>
         <p class="mt15">
-            <span style="color: #cd4239;">MCH Telecom Inc.</span> is a leading communications contractor providing low voltage structured cabling. Our specialists have been providing data and telecommunication solutions to Southeast Michigan for more than thirty years. As a member of the International Brotherhood of Electrical Workers, our clients are guaranteed, not only the highest skilled workforce, but a staff that is trained and required to meet OSHA safety regulations. 
+            <span style="color: #cd4239;">MCH Telecom Inc.</span> is a leading communications contractor specializing in low voltage structured cabling. Our specialists have been providing data and telecommunication solutions to Southeast Michigan for more than thirty years. As a member of the International Brotherhood of Electrical Workers, our clients are guaranteed, not only the highest skilled workforce, but a staff that is trained and required to meet OSHA safety regulations. 
         </p>
-        <p class="mt15">
-            The MCH Telecom Inc. craftsmanship shines throughout all of our projects. From designing and planning, to engineering and consulting, and final installation, we’ll be with you every step of the way. Whether you need a voice or data network solution, a brand new setup, relocation or rebuild, our staff will provide you the quality and customer service you deserve.  
+        <p class="mt15 mb25">
+            The MCH Telecom Inc. craftsmanship shines throughout all of our projects. From designing and planning, to engineering and consulting, and final installation, we’ll be with you every step of the way. Whether you need a voice or data network solution, a brand new setup, relocation or rebuild, our staff will provide you the quality customer service you deserve.  
         </p>
     </div>
     <div class="w50-r">
@@ -36,7 +36,7 @@
                         Project Management &#9650;
                     </h3>
                     <p class="mt5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices....
+                        MCH Telecom Inc. offers a wide range of services from data and telecommunication cabling installation, to Project Management and Structure Cabling Design.
                     </p>
                     <p class="readMore mt15">
                         <a href="services">See more</a>
@@ -124,13 +124,13 @@ Tech Talk Section
                     </tr>
                     <tr>
                         <td>Cat 5</td>
-                        <td>Unshielded</td>
+                        <td>Shielded or<br>Unshielded</td>
                         <td>10/100 Mbps</td>
                         <td>100 Mhz</td>
                     </tr>
                     <tr>
                         <td>Cat 5e</td>
-                        <td>Unshielded</td>
+                        <td>Shielded or<br>Unshielded</td>
                         <td>1,000 Mbps/1 Gbps </td>
                         <td>100 Mhz</td>
                     </tr>
@@ -142,7 +142,7 @@ Tech Talk Section
                     </tr>
                     <tr>
                         <td>Cat 6a</td>
-                        <td>Shielded</td>
+                        <td>Shielded or<br>Unshielded</td>
                         <td>10,000 Mbps/10 Gbps</td>
                         <td>500 Mhz</td>
                     </tr>
@@ -164,7 +164,7 @@ Past Projects Section
         <h4 class="mt15">Carhartt Headquarters - Dearborn, MI</h4>
         <div class="w40-l">
             <ul class="mt15 contactUl">
-                <li><span class="boldText">Square Feet:</span></li>
+                <li><span class="boldText">Approx. Square Footage:</span></li>
             </ul>
         </div>
         <div class="w60-r">
@@ -172,6 +172,7 @@ Past Projects Section
                 <li>45,000</li>
             </ul>
         </div>
+        <br class="clear-fix">
         <div class="w40-l">
             <ul class="contactUl mt5">
                 <li><span class="boldText">Work Completed:</span></li>

@@ -35,6 +35,20 @@
 }
 
 /*Global font-color*/
+::-moz-selection {
+  background-color: #6d6e71;
+  color: #fff;
+}
+::selection {
+  background-color: #6d6e71;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #6d6e71;
+  color: #fff;
+}
+
 body, h1, h2, h3, h4, h5, p, ul, ol, li, table, tr, td, div {
   margin: 0;
   padding: 0;
@@ -75,7 +89,7 @@ p, table, ul {
   font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
 }
 
-p {
+p, li {
   line-height: 1.3em;
 }
 
@@ -792,7 +806,7 @@ p.caption_overlay_content {
 }
 
 h3.titleH3 {
-  margin-top: 0;
+  margin-top: 0px;
   width: 100%;
   padding-top: 5px;
   font-size: 125%;
@@ -802,6 +816,15 @@ h3.titleH3 {
   background-repeat: repeat-y;
   background-position: right;
   text-shadow: 0 2px 10px #000;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .caption_overlay {
+    top: 50px;
+  }
+  h3.titleH3 {
+    margin-top: -50px;
+  }
 }
 
 .caption::before {
@@ -921,7 +944,9 @@ footer li, footer p {
 
 footer .copyright {
   font-size: 80%;
-  margin-top: -15px;
+  margin-top: 30px;
+  margin-bottom: -5px;
+  float: left;
 }
 
 footer .w50-r {
@@ -939,6 +964,62 @@ footer .fb {
 footer .lin {
   width: 28px !important;
   margin-right: 12px;
+}
+
+footer .footerLink {
+  color: #fff;
+  font-weight: normal;
+}
+
+/*********************************************************
+Back To Top Button
+********************************************************/
+.cd-top {
+  padding-top: 9px;
+  height: 33px;
+  width: 40px;
+  right: 0px;
+  bottom: 70px;
+  display: inline-block;
+  position: fixed;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  /*text-indent: 100%;*/
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #cd4239;
+  visibility: hidden;
+  opacity: 0;
+  color: #fff;
+  font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  -webkit-transition: opacity .5s 0s, visibility 0s .3s;
+  transition: opacity .5s 0s, visibility 0s .3s;
+}
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .5s 0s, visibility 0s 0s;
+  transition: opacity .5s 0s, visibility 0s 0s;
+  text-decoration: none;
+}
+
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+
+.cd-top.cd-fade-out:hover {
+  background-color: #cd4239;
+  opacity: 1;
 }
 
 /*****************************************************************
@@ -974,6 +1055,9 @@ iframe.google-map {
 .contactForm fieldset {
   border: none;
   padding: 0;
+  /*input:focus:-webkit-autofill{
+
+        }*/
   /*input:-internal-autofill-selected{
             background-color: #fff !important;
         }*/
@@ -1095,6 +1179,7 @@ Smartphone only
   }
   header nav ul {
     margin-top: 75px;
+    margin-left: 0;
   }
   header nav ul li {
     display: block;
@@ -1112,6 +1197,10 @@ Smartphone only
   header nav ul li a {
     color: #fff !important;
     text-decoration: none;
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
   }
   header nav ul li a.selected {
     color: #fff !important;
@@ -1119,8 +1208,14 @@ Smartphone only
   /************************************************
     Smartphone - Banner Section
     ************************************************/
+  .jssora22l, .jssora22r {
+    width: 25px;
+  }
+  .jssora22r, .jssora22r:hover {
+    background-position: -85px -31px;
+  }
   #banner {
-    margin-top: 90px;
+    margin-top: 85px;
   }
   #banner .slider1 .bannerWrapper .button {
     font-size: 200%;
@@ -1188,7 +1283,7 @@ Smartphone only
     Smartphone Footer Section
     *********************************************************/
   footer {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
   footer .w50-r {
     margin-top: 20px;
@@ -1205,7 +1300,9 @@ Smartphone only
     margin-left: 12px;
   }
   footer .copyright {
-    margin-top: 20px;
+    /*margin-top: 20px;
+            text-align: left;*/
+    margin-bottom: -20px;
   }
   /****************************************************
     Smartphone Contact Section

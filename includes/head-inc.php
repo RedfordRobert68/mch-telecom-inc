@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="format-detection" content="telephone=no">
 <meta name="robots" content="index, follow" />
-<meta name="description" content="" />
+<meta name="description" content="MCH Telecom Inc. is Southeast Michigan's leading data and telecommunications contractor specializing in low voltage structured cabling." />
 <meta name="author" content="Metro Graphics & Design, L.L.C./Robert Vincent" />
 <title>
     <?php // Use a default page title if one wasn't provided...
@@ -62,10 +62,12 @@
     <header id="header">
         <div class="tel-bar" id="tel-bar">
             <p>
-                CALL US: (734) 123-4567
+                CALL US: (734) 340-2059
             </p>
         </div>
-        <img class="logo" src="images/header-mch-telecom-inc-logo.png" alt="MCH Telecom Inc logo" />
+        <a href="https://www.mchtelecominc.com/">
+            <img class="logo" src="images/header-mch-telecom-inc-logo.png" alt="MCH Telecom Inc logo" />
+        </a>
         <img class="nav-toggle" src="images/nav-toggle.png" alt="navigation toggle">
         <nav>
             <h1 class="closeBtn">
@@ -79,7 +81,7 @@
             ?>
             <ul>
                 <li>
-                    <a class="homeBtn" href="index">Home</a>
+                    <a class="homeBtn" href="https://www.mchtelecominc.com/">Home</a>
                 </li>
                 <li>
                     <a class="aboutBtn" href="about">About</a>

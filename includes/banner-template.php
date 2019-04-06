@@ -44,7 +44,7 @@
                             <br>
                             International Brotherhood
                             <br>
-                            of Electricians (IBEW)
+                            of Electrical Workers (IBEW)
                         </p>
                     </div>
                 </div>

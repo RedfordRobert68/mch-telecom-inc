@@ -77,7 +77,7 @@
                             </h3>
                             <p class='mt15'>
                                 Your message has been received! If necessary, a representative will contact you shortly. If you need immediate assistance please call us at 
-                                (734) 123-4567
+                                (734) 340-2059
                             </p>
                             <p class='mt15'>
                                 <a href='contact.php'>&#9664; Go Back</a> 
@@ -88,7 +88,7 @@
                 ;
 
                 // Send a separate email?
-                $body = "Thank you $first_name, your message has been received. A representative will contact you shortly. If you need immediate assistance, please call us at (734) 123-4567  \n\n";
+                $body = "Thank you $first_name, your message has been received. A representative will contact you shortly. If you need immediate assistance, please call us at (734) 340-2059  \n\n";
                 mail($_POST['email'], 'Email Confirmation', $body, 'From: admin@mchtelecominc.com');
 
                 //Finish the page
@@ -182,7 +182,7 @@
                 $headers .= "MIME-Version: 1.0\r\n";
                 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
                 $headers .= 'From: ' . $first_name . ' ' . $last_name .' <' . $email . '>' . "\r\n";
-                $recipient = "robert_vincent@metrographicsanddesign.com";
+                $recipient = "mikec@mchtelecom.com";
                 $subject = "Website Notification: $business_name Has Sent You a Message";
                 mail($recipient, $subject, $formcontent, $headers) or die ("Error!");
                 exit(); // Stop the page
@@ -215,7 +215,7 @@
         </p>
         <ul class="contactUl">
             <li>
-                (734) 123-4567
+                (734) 340-2059
             </li>
         </ul>
         <p class="boldText mt15">
